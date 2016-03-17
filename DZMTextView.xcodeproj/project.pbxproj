@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8CD69C41C9A658900FA4E70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CD69C31C9A658900FA4E70 /* AppDelegate.swift */; };
+		F8CD69C61C9A658900FA4E70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CD69C51C9A658900FA4E70 /* ViewController.swift */; };
+		F8CD69C91C9A658900FA4E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8CD69C71C9A658900FA4E70 /* Main.storyboard */; };
+		F8CD69CB1C9A658900FA4E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8CD69CA1C9A658900FA4E70 /* Assets.xcassets */; };
+		F8CD69CE1C9A658900FA4E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8CD69CC1C9A658900FA4E70 /* LaunchScreen.storyboard */; };
+		F8CD69D91C9A658900FA4E70 /* DZMTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CD69D81C9A658900FA4E70 /* DZMTextViewTests.swift */; };
+		F8CD69E41C9A658900FA4E70 /* DZMTextViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CD69E31C9A658900FA4E70 /* DZMTextViewUITests.swift */; };
+		F8CD69F41C9A662300FA4E70 /* DZMInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CD69F21C9A662300FA4E70 /* DZMInputView.swift */; };
+		F8CD69F51C9A662300FA4E70 /* DZMTextViewPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CD69F31C9A662300FA4E70 /* DZMTextViewPlaceholder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8CD69D51C9A658900FA4E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8CD69B81C9A658900FA4E70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8CD69BF1C9A658900FA4E70;
+			remoteInfo = DZMTextView;
+		};
+		F8CD69E01C9A658900FA4E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8CD69B81C9A658900FA4E70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8CD69BF1C9A658900FA4E70;
+			remoteInfo = DZMTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8CD69C01C9A658900FA4E70 /* DZMTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZMTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8CD69C31C9A658900FA4E70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8CD69C51C9A658900FA4E70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8CD69C81C9A658900FA4E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8CD69CA1C9A658900FA4E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8CD69CD1C9A658900FA4E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8CD69CF1C9A658900FA4E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8CD69D41C9A658900FA4E70 /* DZMTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZMTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8CD69D81C9A658900FA4E70 /* DZMTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DZMTextViewTests.swift; sourceTree = "<group>"; };
+		F8CD69DA1C9A658900FA4E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8CD69DF1C9A658900FA4E70 /* DZMTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZMTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8CD69E31C9A658900FA4E70 /* DZMTextViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DZMTextViewUITests.swift; sourceTree = "<group>"; };
+		F8CD69E51C9A658900FA4E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8CD69F21C9A662300FA4E70 /* DZMInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DZMInputView.swift; sourceTree = "<group>"; };
+		F8CD69F31C9A662300FA4E70 /* DZMTextViewPlaceholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DZMTextViewPlaceholder.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8CD69BD1C9A658900FA4E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CD69D11C9A658900FA4E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CD69DC1C9A658900FA4E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8CD69B71C9A658900FA4E70 = {
+			isa = PBXGroup;
+			children = (
+				F8CD69C21C9A658900FA4E70 /* DZMTextView */,
+				F8CD69D71C9A658900FA4E70 /* DZMTextViewTests */,
+				F8CD69E21C9A658900FA4E70 /* DZMTextViewUITests */,
+				F8CD69C11C9A658900FA4E70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8CD69C11C9A658900FA4E70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8CD69C01C9A658900FA4E70 /* DZMTextView.app */,
+				F8CD69D41C9A658900FA4E70 /* DZMTextViewTests.xctest */,
+				F8CD69DF1C9A658900FA4E70 /* DZMTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8CD69C21C9A658900FA4E70 /* DZMTextView */ = {
+			isa = PBXGroup;
+			children = (
+				F8CD69F11C9A662300FA4E70 /* DZMTextView */,
+				F8CD69C31C9A658900FA4E70 /* AppDelegate.swift */,
+				F8CD69C51C9A658900FA4E70 /* ViewController.swift */,
+				F8CD69C71C9A658900FA4E70 /* Main.storyboard */,
+				F8CD69CA1C9A658900FA4E70 /* Assets.xcassets */,
+				F8CD69CC1C9A658900FA4E70 /* LaunchScreen.storyboard */,
+				F8CD69CF1C9A658900FA4E70 /* Info.plist */,
+			);
+			path = DZMTextView;
+			sourceTree = "<group>";
+		};
+		F8CD69D71C9A658900FA4E70 /* DZMTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8CD69D81C9A658900FA4E70 /* DZMTextViewTests.swift */,
+				F8CD69DA1C9A658900FA4E70 /* Info.plist */,
+			);
+			path = DZMTextViewTests;
+			sourceTree = "<group>";
+		};
+		F8CD69E21C9A658900FA4E70 /* DZMTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8CD69E31C9A658900FA4E70 /* DZMTextViewUITests.swift */,
+				F8CD69E51C9A658900FA4E70 /* Info.plist */,
+			);
+			path = DZMTextViewUITests;
+			sourceTree = "<group>";
+		};
+		F8CD69F11C9A662300FA4E70 /* DZMTextView */ = {
+			isa = PBXGroup;
+			children = (
+				F8CD69F21C9A662300FA4E70 /* DZMInputView.swift */,
+				F8CD69F31C9A662300FA4E70 /* DZMTextViewPlaceholder.swift */,
+			);
+			path = DZMTextView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8CD69BF1C9A658900FA4E70 /* DZMTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8CD69E81C9A658900FA4E70 /* Build configuration list for PBXNativeTarget "DZMTextView" */;
+			buildPhases = (
+				F8CD69BC1C9A658900FA4E70 /* Sources */,
+				F8CD69BD1C9A658900FA4E70 /* Frameworks */,
+				F8CD69BE1C9A658900FA4E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DZMTextView;
+			productName = DZMTextView;
+			productReference = F8CD69C01C9A658900FA4E70 /* DZMTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8CD69D31C9A658900FA4E70 /* DZMTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8CD69EB1C9A658900FA4E70 /* Build configuration list for PBXNativeTarget "DZMTextViewTests" */;
+			buildPhases = (
+				F8CD69D01C9A658900FA4E70 /* Sources */,
+				F8CD69D11C9A658900FA4E70 /* Frameworks */,
+				F8CD69D21C9A658900FA4E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8CD69D61C9A658900FA4E70 /* PBXTargetDependency */,
+			);
+			name = DZMTextViewTests;
+			productName = DZMTextViewTests;
+			productReference = F8CD69D41C9A658900FA4E70 /* DZMTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8CD69DE1C9A658900FA4E70 /* DZMTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8CD69EE1C9A658900FA4E70 /* Build configuration list for PBXNativeTarget "DZMTextViewUITests" */;
+			buildPhases = (
+				F8CD69DB1C9A658900FA4E70 /* Sources */,
+				F8CD69DC1C9A658900FA4E70 /* Frameworks */,
+				F8CD69DD1C9A658900FA4E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8CD69E11C9A658900FA4E70 /* PBXTargetDependency */,
+			);
+			name = DZMTextViewUITests;
+			productName = DZMTextViewUITests;
+			productReference = F8CD69DF1C9A658900FA4E70 /* DZMTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8CD69B81C9A658900FA4E70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DZM;
+				TargetAttributes = {
+					F8CD69BF1C9A658900FA4E70 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					F8CD69D31C9A658900FA4E70 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F8CD69BF1C9A658900FA4E70;
+					};
+					F8CD69DE1C9A658900FA4E70 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F8CD69BF1C9A658900FA4E70;
+					};
+				};
+			};
+			buildConfigurationList = F8CD69BB1C9A658900FA4E70 /* Build configuration list for PBXProject "DZMTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8CD69B71C9A658900FA4E70;
+			productRefGroup = F8CD69C11C9A658900FA4E70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8CD69BF1C9A658900FA4E70 /* DZMTextView */,
+				F8CD69D31C9A658900FA4E70 /* DZMTextViewTests */,
+				F8CD69DE1C9A658900FA4E70 /* DZMTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8CD69BE1C9A658900FA4E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CD69CE1C9A658900FA4E70 /* LaunchScreen.storyboard in Resources */,
+				F8CD69CB1C9A658900FA4E70 /* Assets.xcassets in Resources */,
+				F8CD69C91C9A658900FA4E70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CD69D21C9A658900FA4E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CD69DD1C9A658900FA4E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8CD69BC1C9A658900FA4E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CD69C61C9A658900FA4E70 /* ViewController.swift in Sources */,
+				F8CD69F51C9A662300FA4E70 /* DZMTextViewPlaceholder.swift in Sources */,
+				F8CD69F41C9A662300FA4E70 /* DZMInputView.swift in Sources */,
+				F8CD69C41C9A658900FA4E70 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CD69D01C9A658900FA4E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CD69D91C9A658900FA4E70 /* DZMTextViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CD69DB1C9A658900FA4E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CD69E41C9A658900FA4E70 /* DZMTextViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8CD69D61C9A658900FA4E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8CD69BF1C9A658900FA4E70 /* DZMTextView */;
+			targetProxy = F8CD69D51C9A658900FA4E70 /* PBXContainerItemProxy */;
+		};
+		F8CD69E11C9A658900FA4E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8CD69BF1C9A658900FA4E70 /* DZMTextView */;
+			targetProxy = F8CD69E01C9A658900FA4E70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8CD69C71C9A658900FA4E70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8CD69C81C9A658900FA4E70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8CD69CC1C9A658900FA4E70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8CD69CD1C9A658900FA4E70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8CD69E61C9A658900FA4E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8CD69E71C9A658900FA4E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8CD69E91C9A658900FA4E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DZMTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DZM.DZMTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8CD69EA1C9A658900FA4E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DZMTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DZM.DZMTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8CD69EC1C9A658900FA4E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DZMTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DZM.DZMTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DZMTextView.app/DZMTextView";
+			};
+			name = Debug;
+		};
+		F8CD69ED1C9A658900FA4E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DZMTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DZM.DZMTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DZMTextView.app/DZMTextView";
+			};
+			name = Release;
+		};
+		F8CD69EF1C9A658900FA4E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DZMTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DZM.DZMTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DZMTextView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F8CD69F01C9A658900FA4E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DZMTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DZM.DZMTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DZMTextView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8CD69BB1C9A658900FA4E70 /* Build configuration list for PBXProject "DZMTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CD69E61C9A658900FA4E70 /* Debug */,
+				F8CD69E71C9A658900FA4E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8CD69E81C9A658900FA4E70 /* Build configuration list for PBXNativeTarget "DZMTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CD69E91C9A658900FA4E70 /* Debug */,
+				F8CD69EA1C9A658900FA4E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8CD69EB1C9A658900FA4E70 /* Build configuration list for PBXNativeTarget "DZMTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CD69EC1C9A658900FA4E70 /* Debug */,
+				F8CD69ED1C9A658900FA4E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8CD69EE1C9A658900FA4E70 /* Build configuration list for PBXNativeTarget "DZMTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CD69EF1C9A658900FA4E70 /* Debug */,
+				F8CD69F01C9A658900FA4E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8CD69B81C9A658900FA4E70 /* Project object */;
+}
