@@ -61,7 +61,7 @@ class DZMTextViewPlaceholder: UITextView {
         placeholderLabel.font = placeholderFont
         addSubview(placeholderLabel)
         
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "textDidChange:", name: UITextViewTextDidChangeNotification, object: self)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "textDidChange", name: UITextViewTextDidChangeNotification, object: self)
     }
     
     deinit {
@@ -88,7 +88,9 @@ class DZMTextViewPlaceholder: UITextView {
     }
     
     
-    func textDidChange(notification:NSNotification) {
+    // 文本输入监听  如果是插入 attributedText  则需要在插入的地方调用该方法进行监听 比如输入框自定义做的表情插入
+    func textDidChange() {
+        
         if placeholder != nil && text.isEmpty {
             placeholderLabel.hidden = false
         }else{
