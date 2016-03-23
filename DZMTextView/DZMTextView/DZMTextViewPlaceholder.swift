@@ -61,7 +61,7 @@ class DZMTextViewPlaceholder: UITextView {
         placeholderLabel.font = placeholderFont
         addSubview(placeholderLabel)
         
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "textDidChange", name: UITextViewTextDidChangeNotification, object: self)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(DZMTextViewPlaceholder.textDidChange), name: UITextViewTextDidChangeNotification, object: self)
     }
     
     deinit {
